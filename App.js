@@ -12,7 +12,7 @@ class App extends Component{
           Sujeito Programador
         </Text>
         <Text style={{ fontSize: 30 }}>{nome}</Text>
-        <Jobs></Jobs>
+        <Jobs largura ={500} altura={200} nome={'Steve Jobs'}></Jobs>
       </View>
     );
   }
@@ -23,10 +23,13 @@ class Jobs extends Component {
   render() { 
     let img = 'https://sujeitoprogramador.com/steve.png'
     return (
-      <Image
-        source={{ uri: img }}
-        style={{ width: 300, height: 300 }}
-      ></Image>
+      <View>
+        <Image
+          source={{ uri: img }}
+          style={{ width: this.props.largura, height: this.props.altura }}
+        ></Image>
+        <Text> { this.props.nome}</Text>
+      </View>
     );
   }
 }
