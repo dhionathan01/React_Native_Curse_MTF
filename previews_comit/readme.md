@@ -9,3 +9,5 @@
 ![alt text](image-3.png)
 * Flexbox e alinhamento:
 ![alt text](image-4.png)
+* Recebedo dados e fazendo redem com useState
+![alt text](<recebendo dados e alterando redenização com useState.gif>)
