@@ -9,16 +9,15 @@ class App extends Component{
     }
     this.entrar = this.entrar.bind(this);
   }
-  entrar(){
-    
+  entrar(nome){
     this.setState({
-      nome: 'Dhionathan Jobim React Native State'
+      nome: nome
     })
   }
   render() {
     return (
       <View style={{ marginTop: 20 }}>
-        <Button title="Entrar" onPress={this.entrar}></Button>
+        <Button title="Entrar" onPress={() => this.entrar('Dhionathan React Call')}></Button>
         <Text style={{ fontSize: 23, color: 'red', textAlign: 'center' }}>
           {this.state.nome}
         </Text>
