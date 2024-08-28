@@ -7,3 +7,5 @@
 ![alt text](image-2.png)
 * Finalizando aula:
 ![alt text](image-3.png)
+* Flexbox e alinhamento:
+![alt text](image-4.png)
