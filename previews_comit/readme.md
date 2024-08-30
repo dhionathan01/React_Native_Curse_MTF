@@ -1,15 +1,17 @@
-# Preview da visualização atual da tela:
+# Preview da visualizaï¿½ï¿½o atual da tela:
 ![alt text](image.png)
 
 * Aplicando grupo de estilos:
 ![alt text](image-1.png)
-* Tamanhos fixos e dinâmicos:
+* Tamanhos fixos e dinï¿½micos:
 ![alt text](image-2.png)
 * Finalizando aula:
 ![alt text](image-3.png)
 * Flexbox e alinhamento:
 ![alt text](image-4.png)
 * Recebedo dados e fazendo redem com useState
-![alt text](<recebendo dados e alterando redenização com useState.gif>)
-* useState trabalhando com botões:
+![alt text](<recebendo dados e alterando redenizaï¿½ï¿½o com useState.gif>)
+* useState trabalhando com botï¿½es:
 ![alt text](btn_useState.gif)
+* Scrollview vertical e horizontal:
+![alt text](scrollview_indicator.gif)
