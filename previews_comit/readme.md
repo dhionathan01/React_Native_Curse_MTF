@@ -17,3 +17,6 @@
 ![alt text](scrollview_indicator.gif)
 * FlatList
 ![alt text](flatList.gif)
+* instalando picker no react-native:
+* `npm install @react-native-picker/picker --save`
+![alt text](image-5.png)
