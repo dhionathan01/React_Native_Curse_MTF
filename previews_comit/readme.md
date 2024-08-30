@@ -20,3 +20,6 @@
 * instalando picker no react-native:
 * `npm install @react-native-picker/picker --save`
 ![alt text](image-5.png)
+
+* Implementando e usando picker:
+![alt text](picker.gif)
