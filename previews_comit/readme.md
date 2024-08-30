@@ -23,6 +23,9 @@
 
 * Implementando e usando picker:
 ![alt text](picker.gif)
+
 * Instalando o slider no react-native:
 `npm install @react-native-community/slider --save`
 ![alt text](image-6.png)
+* Implementando e usando slider:
+![alt text](slider.gif)
