@@ -29,3 +29,6 @@
 ![alt text](image-6.png)
 * Implementando e usando slider:
 ![alt text](slider.gif)
+
+* Usando switch:
+![alt text](switch.gif)
