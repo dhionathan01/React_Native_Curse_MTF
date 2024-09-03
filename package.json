@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "clean": "npm cache clean --force && cd android && ./gradlew clean && cd ..",
+    "start-clean": "npm run clean && npx react-native start --reset-cache",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
@@ -10,6 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.0.0",
     "@react-native-community/slider": "^4.5.2",
     "@react-native-picker/picker": "^2.8.0",
     "react": "18.3.1",
