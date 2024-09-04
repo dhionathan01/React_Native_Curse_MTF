@@ -32,3 +32,6 @@
 
 * Usando switch:
 ![alt text](switch.gif)
+
+* Criando modais:
+![**alt text**](<criando modais.gif>)
