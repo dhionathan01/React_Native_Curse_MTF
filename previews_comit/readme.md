@@ -38,3 +38,6 @@
 
 * Criando Modal por meio de outro component:
 ![alt text](criandoComponentModal.gif)
+
+* Estilizando Modal para ficar visualmente mais agrável
+![alt text](deixando_modal_mais_elegante.gif)

@@ -22,7 +22,9 @@ export default class App extends Component{
       <View style={styles.container}>
         <Button title="Entrar" onPress={() => this.entrar(true)}></Button>
         <Modal animationType="slide" visible={this.state.modalVisible}>
-          <ModalComponentCurseReact fechar={ () => this.sair(false)} />
+          <View style={{margin: 15, flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+            <ModalComponentCurseReact fechar={ () => this.sair(false)} />
+          </View>
         </Modal>
       </View>
     );
