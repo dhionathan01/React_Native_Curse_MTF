@@ -35,3 +35,6 @@
 
 * Criando modais:
 ![**alt text**](<criando modais.gif>)
+
+* Criando Modal por meio de outro component:
+![alt text](criandoComponentModal.gif)

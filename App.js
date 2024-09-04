@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Button, View, Modal, Text, StyleSheet, } from 'react-native';
+import  ModalComponentCurseReact  from './src/ModalComponentCurseReact'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 export default class App extends Component{
   constructor(props) {
@@ -11,7 +12,7 @@ export default class App extends Component{
     this.sair = this.sair.bind(this);
   }
   entrar(visible) {
-    this.setState({ modalVisible: true });
+    this.setState({ modalVisible: visible });
   }
   sair(visible) {
     this.setState({ modalVisible: visible });
@@ -21,10 +22,7 @@ export default class App extends Component{
       <View style={styles.container}>
         <Button title="Entrar" onPress={() => this.entrar(true)}></Button>
         <Modal animationType="slide" visible={this.state.modalVisible}>
-          <View style={{backgroundColor: '#292929', flex: 1}}>
-            <Text style={{ color: '#FFF', fontSize: 28 }}>Seja Bem-vindo!</Text>
-            <Button title='Sair' onPress={() => this.sair(false)}></Button>
-          </View>
+          <ModalComponentCurseReact fechar={ () => this.sair(false)} />
         </Modal>
       </View>
     );
