@@ -44,3 +44,6 @@
 
 * Instalando o axios para requisições em api
 `yarn add axios`
+
+* Recuperando nome dos filmes da api:
+![alt text](image-7.png)
