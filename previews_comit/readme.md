@@ -41,3 +41,6 @@
 
 * Estilizando Modal para ficar visualmente mais agrável
 ![alt text](deixando_modal_mais_elegante.gif)
+
+* Instalando o axios para requisições em api
+`yarn add axios`
